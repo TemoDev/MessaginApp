@@ -1,0 +1,40 @@
+<div class="h-screen flex flex-col justify-between p-4">
+
+    <div class="messages">
+        <!-- Sent messages -->
+        <div class="sent-message-container flex justify-end">
+            <div class="sent-message-list max-w-xs">
+                <div class="message-details flex justify-end">
+                    <span>10:40am</span>
+                    <span>You</span>
+                </div>
+                <div> <!-- iterate over all messages -->
+                    <p class="px-3 py-2 mb-2 sent-message bg-accent text-white rounded-b-lg rounded-l-lg">My man, it's 8 AM in the morning</p>
+                    <p class="px-3 py-2 sent-message bg-accent text-white rounded-b-lg rounded-l-lg">My man, it's 8 AM in the morning</p>
+                </div>
+            </div>
+            <img src="assets\imgs\CONOR.jpeg" alt="UserProfile" class="rounded-lg w-12 h-12 object-cover ml-3">
+        </div>
+        <!-- Recevied messages -->
+        <div class="received-message-container flex justify-start">
+            <img src="assets\imgs\CONOR.jpeg" alt="UserProfile" class="rounded-lg w-12 h-12 object-cover mr-3">
+            <div class="sent-message-list max-w-xs">
+                <div class="message-details flex justify-start">
+                    <span>Conor</span>
+                    <span>10:40am</span>
+                </div>
+                <div> <!-- iterate over all messages -->
+                    <p class="px-3 py-2 mb-2 sent-message bg-secondary text-white rounded-b-lg rounded-r-lg">My man, it's 8 AM in the morning</p>
+                    <p class="px-3 py-2 sent-message bg-secondary text-white rounded-b-lg rounded-r-lg">My man, it's 8 AM in the morning</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <form class="flex gap-2">   
+        <input type="message" id="search" class="block w-full shadow-lg p-4 pl-10 text-sm text-white rounded-lg bg-darkSecondary" placeholder="Message" required>
+        <button type="submit" style="color:white" class="bg-accent hover:bg-blue-800 focus:outline-none font-medium rounded-lg text-sm px-4 py-2">Send</button>
+    </form>
+
+</div>

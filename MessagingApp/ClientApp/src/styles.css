@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Colors */
+@layer base {
+    :root {
+        --color-white: 255 255 255;
+        --color-primary: 180 181 183;
+
+        --color-dark: 23 24 26;
+        --color-dark-secondary: 25 26 28;
+
+        --color-secondary: 40 41 46;
+
+        --color-accent: 55 121 254;
+    }
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    color: var(--color-primary);
+}
