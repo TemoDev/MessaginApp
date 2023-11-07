@@ -7,10 +7,6 @@ This project is a messaging app created with the goal of learning new concepts a
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -38,8 +34,3 @@ The Messaging App project will include the following features:
 - **Group Chats**: Users can create and participate in group chats.
 - **Role-Based Access Control**: Role-based access control to differentiate between users, moderators, and administrators, each with different privileges and responsibilities.
 - **Search and Filter**: The ability to search for users and messages, and filter conversations.
-
-## Project Structure
-
-The project is structured with a clear separation between front-end and back-end components. The front-end, developed with Angular, handles the user interface and interactions, while the back-end, built with ASP.NET Web API, manages data and communication.
-
